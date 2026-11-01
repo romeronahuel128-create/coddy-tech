@@ -1,0 +1,42 @@
+*{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+    
+}
+
+h1{
+    color: #000;
+    font-size: 3rem;
+    
+}
+p{
+    color: #000;
+    font-size: 1.5rem;
+
+}
+
+a{
+    color: white;
+    background-color: green;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 1.5rem;
+}
+
+@media(max-width:600px){
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.25rem;
+    }
+    a{
+        font-size: 1.24rem;
+        padding: 8px 16px;
+        border-radius: 10px;
+    }
+}
